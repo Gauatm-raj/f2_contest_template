@@ -13,7 +13,7 @@ function PrintDeveloperbyMap() {
    ans.map(function(value){console.log("Printed via using Map:",value)})
     
 }
-PrintDeveloperbyMap()
+
 
 
 function PrintDeveloperbyForEach() {
@@ -24,7 +24,7 @@ function PrintDeveloperbyForEach() {
     })
   
 }
-PrintDeveloperbyForEach()
+
 
 
 function addData() {
@@ -38,7 +38,7 @@ function addData() {
   arr.push(newData);
   console.log("Updated array after adding new data:", arr);
 }
-addData()
+
 
 
 function removeAdmin() {
@@ -46,7 +46,7 @@ function removeAdmin() {
   let ans= arr.filter(function(value ,index){ return value.profession!== "admin"})
   console.log("After deleting Profession:Admin :",ans)
 }
-removeAdmin()
+
 
 
 function concatenateArray() {
@@ -63,5 +63,5 @@ function concatenateArray() {
 
 
 }
-concatenateArray()
+
 
